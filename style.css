@@ -1,0 +1,22 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 8px;
+  line-height: 1.2;
+  background-color: #000;
+  min-width:320px;
+}
+
+img{
+  height: 100%;
+  width: auto;
+}
+
+a {
+  text-decoration:none
+  color: #fff
+}
+
