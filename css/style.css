@@ -1,0 +1,136 @@
+/* init */
+html {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  margin: 8px;
+  line-height: 1.2;
+  background-color: #000;
+  min-width:320px;
+}
+
+img{
+  height: 100%;
+  width: auto;
+}
+
+a {
+  text-decoration:none
+  color: #fff
+}
+
+a:hover,
+a:focus{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* header-top */
+
+body header div.header-top{
+  background-color: #000;
+  position: relative;
+}
+
+/* search */
+
+#search::placeholder{
+  color: #fff;
+}
+
+
+#search.form-control {
+  border-radius: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,0);
+  border-color: #000;
+  background-color:#000;
+  color: #fff;
+}
+
+.header-top .panel-search{
+  background-color:#000;
+  max-height:40px;
+  max-width:300px;
+  border: 1px solid #ccc;
+}
+
+
+.header-top .panel-search:hover{
+  background-color:#000;
+  border-color:#fff;
+  #icon-search .fa-solid{
+    color:#fff;
+  }
+}
+
+
+#icon-search .fa-solid{
+  color:#ccc;
+}
+
+/* header-bottom */
+
+.header-bottom{
+  position:relative;
+}
+
+.header-bottom  .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 15px;
+
+}
+
+.navbar-toggler {
+    color: #66da43
+}
+
+.header-bottom .application-item,
+.header-bottom .service-item,
+.header-bottom .portfolio-item,
+.header-bottom .team-item,
+.header-bottom .blog-item,
+.header-bottom .store-item{
+  display:block;
+  height:40px;
+  line-height:20px;
+}
+
+
+
+@media all and (min-width: 768px){
+
+.header-bottom .application-item{
+  background-color:#66da43;
+}
+
+.header-bottom .application-item:hover,
+.header-bottom .service-item:hover,
+.header-bottom .portfolio-item:hover,
+.header-bottom .team-item:hover,
+.header-bottom .blog-item:hover,
+.header-bottom .store-item:hover{
+  background-color: #44912D
+}
+
+
+.header-bottom .service-item span,
+.header-bottom .portfolio-item  span,
+.header-bottom .team-item  span,
+.header-bottom .blog-item  span ,
+.header-bottom .store-item  span{
+  position:absolute;
+  top:8px;
+  height:40px;
+  display: inline-block;
+  width:1px;
+  background-color:#fff;
+}
+
+
+}
+
+
+
