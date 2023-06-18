@@ -128,9 +128,49 @@ body header div.header-top{
   width:1px;
   background-color:#fff;
 }
+}
 
+/* main-container */
+
+/* preferences-interface */
+
+.preferences-interface{
+	position:relative;
+}
+
+.preferences-interface .description-interface{
+	position:relative;
+	top:200px;
+}
+
+.preferences-interface .description-interface span{ 
+	font-size:20px;
+	color:#fff;
+}
+
+.preferences-interface .description-interface .main-word-design{
+	color:#66da43;
+}
+
+.preferences-interface .description-interface .specialization-of-work{
+	font-size:20px;
+	line-height:normal;
 
 }
+
+.preferences-interface .description-interface .list-specialization-of-work{
+	font-size:20px;
+	line-height:normal;
+}
+
+
+.preferences-interface .description-interface .list-specialization-of-work li{
+	color:#66da43;
+}
+
+
+
+
 
 
 
