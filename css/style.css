@@ -169,6 +169,50 @@ body header div.header-top{
 }
 
 
+/* carousel */
+.my-carousel{
+	padding: 0;
+}
+
+.my-carousel .carousel-item img {
+	height:500px;
+	max-width:320px;
+}
+
+/* circle-panel */
+.carousel-indicators [data-bs-target] {
+	width:7px;
+	height:7px;
+	border-radius:50%;
+	margin-left:10px;
+	margin-bottom: -10px;
+}
+
+@media (min-width: 768px){
+/* arrow-left */
+.carousel-control-prev-icon{
+	position:relative;
+	left:80px;
+}
+/* arrow-right */
+.carousel-control-next-icon{
+	position:relative;
+	right:80px;
+}
+}
+
+@media all and (max-width: 768px){
+	.my-carousel{
+		position:relative;
+		top:150px;
+	}
+}
+
+
+
+
+
+
 
 
 
