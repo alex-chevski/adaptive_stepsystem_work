@@ -28,10 +28,16 @@ a:focus{
   color: #fff;
 }
 
+span{
+	font-size:20px;
+	color:#fff;
+
+}
+
 /* header-top */
 
 body header div.header-top{
-  background-color: #000;
+  /* background-color: #000; */
   position: relative;
 }
 
@@ -52,7 +58,7 @@ body header div.header-top{
 
 .header-top .panel-search{
   background-color:#000;
-  max-height:40px;
+  max-height:50px;
   max-width:300px;
   border: 1px solid #ccc;
 }
@@ -100,7 +106,7 @@ body header div.header-top{
 
 
 
-@media all and (min-width: 768px){
+@media all and (min-width: 992px){
 
 .header-bottom .application-item{
   background-color:#66da43;
@@ -188,6 +194,7 @@ body header div.header-top{
 	margin-bottom: -10px;
 }
 
+
 @media (min-width: 768px){
 /* arrow-left */
 .carousel-control-prev-icon{
@@ -201,20 +208,128 @@ body header div.header-top{
 }
 }
 
-@media all and (max-width: 768px){
+
+@media all and (max-width: 992px){
 	.my-carousel{
 		position:relative;
 		top:150px;
 	}
 }
 
+/* preferences-dop-main */
+.preferences-interface .preferences-dop {
+	margin-top:100px;
+}
+
+.preferences-dop .main-word-design-dop {
+	color:#66da43;
+}
+
+
+@media all and (max-width: 992px){
+	.preferences-interface .preferences-dop{
+		margin-top:200px;
+
+	}
+}
+
+/* bottom-advantage */
+
+.bottom-svg-advantage .time img{
+	max-height:50px;
+}
+
+
+.bottom-svg-advantage .result img{
+	max-height:50px;
+}
 
 
 
+.bottom-svg-advantage .money-box img{
+	max-height:50px;
+}
 
 
+@media all and (min-width: 992px){
+
+.bottom-svg-advantage .time {
+	position:absolute;
+	left:140px;
+}
+
+.bottom-svg-advantage .money-box {
+	position:absolute;
+	left:470px;
+}
 
 
+.bottom-svg-advantage .result {
+	position:absolute;
+	left:800px;
+}
+
+
+/* text-svg */
+.bottom-svg-advantage .description-svg-clock-text{
+	position: absolute;
+	right:150px;
+}
+
+
+.bottom-svg-advantage .description-svg-money-box-text{
+	position: absolute;
+	right:120px;
+}
+
+.bottom-svg-advantage .description-svg-result-text{
+	position: absolute;
+	right:150px;
+}
+
+}
+
+
+.bottom-svg-advantage .description-svg-clock-text .cause-advantage .time-span-text{
+	font-size:24px;
+}
+
+
+.bottom-svg-advantage .description-svg-clock-text .cause-advantage .time-text{
+	font-size:18px;
+}
+
+.bottom-svg-advantage .description-svg-clock-text .cause-advantage .time-bottom-text {
+	padding-left:30px;
+}
+
+
+.bottom-svg-advantage .description-svg-clock-text .cause-advantage .time-span-text-open{
+	padding-left: 15px;
+}
+
+@media all and (max-width: 992px){
+
+.bottom-svg-advantage .time img{
+	margin-left:120px;
+}
+
+
+.bottom-svg-advantage .money-box img{
+	margin-left:100px;
+}
+
+
+.bottom-svg-advantage .result img{
+	margin-left:100px;
+}
+
+}
+
+/* here stay */
+.bottom-svg-advantage .result-text {
+	margin-left:50px;
+}
 
 
 
