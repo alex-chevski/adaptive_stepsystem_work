@@ -18,7 +18,7 @@ img{
 }
 
 a {
-  text-decoration:none
+	text-decoration:none;
   color: #fff
 }
 
@@ -179,19 +179,19 @@ body header div.header-top{
 .my-carousel{
 	padding: 0;
 }
-
 .my-carousel .carousel-item img {
 	height:500px;
 	max-width:320px;
 }
 
 /* circle-panel */
-.carousel-indicators [data-bs-target] {
+.my-carousel .carousel-indicators [data-bs-target] {
 	width:7px;
 	height:7px;
 	border-radius:50%;
 	margin-left:10px;
 	margin-bottom: -10px;
+
 }
 
 
@@ -251,7 +251,7 @@ body header div.header-top{
 }
 
 
-@media all and (min-width: 992px){
+@media (min-width: 992px){
 
 .bottom-svg-advantage .time {
 	position:absolute;
@@ -287,7 +287,12 @@ body header div.header-top{
 	right:150px;
 }
 
+
+.bottom-svg-advantage .result img{
+	margin-left:15px;
 }
+}
+
 
 
 .bottom-svg-advantage .description-svg-clock-text .cause-advantage .time-span-text{
@@ -326,10 +331,119 @@ body header div.header-top{
 
 }
 
-/* here stay */
 .bottom-svg-advantage .result-text {
 	margin-left:50px;
 }
+
+/* developing-chat-bot bottom-main*/
+
+@media (min-width: 992px){
+
+.interface-demo-work-developing .description-interface-bot-telegram{
+	position:absolute;
+	left: 130px;
+	top: 100px;
+}
+
+section.interface-demo-work-developing {
+	position:relative;
+	top:300px;
+}
+
+}
+
+@media (max-width: 992px){
+
+section.interface-demo-work-developing {
+	position:relative;
+}
+
+.interface-demo-work-developing .description-interface-bot-telegram .text-developing{
+	position:absolute;
+	left: 40px;
+}
+
+.interface-demo-work-developing .description-interface-bot-telegram .logo-bottom{
+	position:relative;
+	left:20px;
+}
+}
+
+.description-interface-bot-telegram img {
+	min-height: 160px;
+	min-width:303px;
+}
+
+.interface-demo-work-developing .description-interface-bot-telegram .text-developing span{
+	font-size:24px;
+}
+
+
+.interface-demo-work-developing .description-interface-bot-telegram .text-developing .telegram-link{
+	font-size:24px;
+	color:#66da43;
+	text-decoration:underline;
+}
+
+
+
+/* carousel-telegram-bot */
+.my-carousel-telegram-bot{
+	padding: 0;
+}
+.my-carousel-telegram-bot .carousel-item img {
+	height:600px;
+	max-width:320px;
+}
+
+@media (max-width:992px){
+	
+.my-carousel-telegram-bot {
+	position:relative;
+	top:250px;
+	left:10px;
+}
+}
+
+/* circle-panel */
+.my-carousel-telegram-bot .carousel-indicators [data-bs-target] {
+	width:7px;
+	height:7px;
+	border-radius:50%;
+	margin-left:10px;
+	position:relative;
+	top:50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
