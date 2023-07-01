@@ -113,7 +113,7 @@ body header div.header-top{
 
 @media all and (min-width: 992px){
 
-.header-bottom .application-item{
+.header-bottom .active-page{
   background-color:#66da43;
 }
 
@@ -154,7 +154,7 @@ body header div.header-top{
 	top:200px;
 }
 
-.preferences-interface .description-interface span{ 
+.preferences-interface .description-interface span{
 	font-size:20px;
 	color:#fff;
 }
@@ -403,7 +403,7 @@ section.interface-demo-work-developing {
 }
 
 @media (max-width:992px){
-	
+
 .my-carousel-telegram-bot {
 	position:relative;
 	top:250px;
@@ -435,7 +435,7 @@ section.interface-demo-work-developing {
 
 .bottom-telegram-text .link-span{
 	text-decoration:underline;
-	
+
 
 }
 
@@ -462,7 +462,6 @@ section.interface-demo-work-developing {
 	background-color:#66da43;
 	font-size:18px;
 }
-
 .service-button:hover{
 	background-color:#000;
 	color:#66da43;
@@ -509,6 +508,81 @@ footer .footer-nav {
 	color:#66da43;
 	font-size:16px;
 }
+
+/* SERVICES */
+
+.services{
+  position:relative;
+}
+
+.services .service-header{
+  font-size:24px;
+  text-align:center;
+  color:#66da43;
+}
+
+.service-card{
+  position:relative;
+
+}
+
+.services .service-card .gif-img img{
+  height:282px;
+  width:310px;
+  object-fit:cover;
+}
+
+.service-card .description-service p{
+  font-size:16px;
+  color:#fff;
+}
+
+
+.service-card .description-service p.service-card-name{
+  font-size:20px;
+  color:#66da43;
+}
+
+.service-card .service-link-card{
+  font-size:14px;
+  height:40px;
+  width:142px;
+  color:#000;
+  background-color:#66da43;
+}
+
+.service-link-card:hover{
+	background-color:#000;
+	color:#66da43;
+}
+
+@media (min-width:992px){
+.service-card .service-link-card{
+  position:relative;
+  top:73px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

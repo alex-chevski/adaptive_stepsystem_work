@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/70d9785a7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ваш интерфейс в мир 3D технологий</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-top py-3 ms-5">
+          <div class="row align-items-end">
+            <div class="col-lg-8 col-12">
+              <div class="main-header"></div>
+              <div class="d-flex flex-row align-items-end">
+                <div class="main-logo mb-lg-3 mb-sm-3 mb-3">
+                  <a class="logo-link" href="#">
+                    <img src="img/logo.webp" alt="logo-header-main" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-10 panel-search mx-4">
+              <div class="d-flex flex-row">
+                <label for="search" class="col-form-label">
+                  <span id="icon-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </span>
+                </label>
+                <input
+                  type="search"
+                  class="form-control"
+                  id="search"
+                  placeholder="Search..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="header-bottom py-2 mx-4">
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <div class="container-fluid p-0">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item application-item">
+                      <a class="nav-link" href="index.html">Приложение</a>
+                      <span></span>
+                    </li>
+                    <li class="nav-item service-item active-page">
+                      <a class="nav-link" href="services.html">Услуги</a>
+                      <span></span>
+                    </li>
+                    <li class="nav-item portfolio-item">
+                      <a class="nav-link" href="#">Портфолио</a>
+                      <span></span>
+                    </li>
+                    <li class="nav-item team-item">
+                      <a class="nav-link" href="#">Сообщество</a>
+                      <span></span>
+                    </li>
+                    <li class="nav-item blog-item">
+                      <a class="nav-link" href="#">Блог</a>
+                      <span></span>
+                    </li>
+                    <li class="nav-item store-item">
+                      <a class="nav-link" href="#">Магазин</a>
+                      <span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="services mt-5">
+          <h2 class="service-header">Мы оказываем [4] услуги</h2>
+          <section class="service-card mt-5">
+            <div class="row">
+              <!-- the first card -->
+              <div class="col-lg-6 3d-scan-card">
+                <div class="row">
+                  <div class="col gif-img">
+                    <img src="img/gif/3d-scan-gif.gif" alt="3d-scan-gif" />
+                  </div>
+                  <div class="col description-service">
+                    <p class="mt-4"># оптическая объемная оцифровка</p>
+                    <p class=""># промышленное # художественное</p>
+                    <p class=""># от 2000 рублей</p>
+                    <p class="service-card-name">[1] 3D-сканирование</p>
+                    <button class="btn service-link-card">Портфолио</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- the second card -->
+              <div class="col-lg-6 reverse-card mt-5 mt-lg-0">
+                <div class="row">
+                  <div class="col gif-img">
+                    <img src="img/gif/reverse.gif" alt="reverse-git" />
+                  </div>
+                  <div class="col description-service">
+                    <p class="mt-4"># обратное проектирование (CAD)</p>
+                    <p class=""># CAM / CAE - моделирование (САПР)</p>
+                    <p class=""># от 4 000 рублей</p>
+                    <p class="service-card-name">[2] Реверсинжиниринг</p>
+                    <button class="btn service-link-card">Портфолио</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- the third card -->
+              <div class="col-lg-6 reverse-card mt-5">
+                <div class="row">
+                  <div class="col gif-img">
+                    <img src="img/gif/3d-model.gif" alt="3d-model" />
+                  </div>
+                  <div class="col description-service">
+                    <p class="mt-4"># художественное (STL)</p>
+                    <p class=""># промышленное (STP, САПР)</p>
+                    <p class=""># от 1 500 рублей</p>
+                    <p class="service-card-name">[3] 3D-моделирование</p>
+                    <button class="btn service-link-card">Портфолио</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- the forth card -->
+              <div class="col-lg-6 reverse-card mt-5">
+                <div class="row">
+                  <div class="col gif-img">
+                    <img src="img/gif/3d-printing.gif" alt="3d-printing" />
+                  </div>
+                  <div class="col description-service">
+                    <p class="mt-4"># аддитивные технологии (FDM, DLP)</p>
+                    <p class=""># пластиками и смолами</p>
+                    <p class=""># от 10 рублей за 1 гр (~ см^2)</p>
+                    <p class="service-card-name">[4] 3D-печать</p>
+                    <button class="btn service-link-card">Портфолио</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <nav class="footer-nav py-3 ms-lg-5">
+          <div class="d-flex mb-3 align-items-start">
+            <div class="col-lg-2 col-6 p-2">
+              <div class="d-flex flex-row align-items-end">
+                <div class="main-logo mb-lg-3 mb-sm-3 mb-3">
+                  <a class="logo-link" href="#">
+                    <img src="img/logo.webp" alt="logo-header-main" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <ul class="list-nav-footer">
+                <li class="header-list">Навигация</li>
+                <li><a href="index.html">Приложение</a></li>
+                <li><a href="">Услуги</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="">Сообщество</a></li>
+                <li><a href="">Курсы</a></li>
+                <li><a href="">Блог</a></li>
+                <li><a href="">Магазин</a></li>
+                <li><a class="text-nowrap" href="">Выставка Корочкина</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
