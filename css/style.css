@@ -563,37 +563,32 @@ footer .footer-nav {
 }
 }
 
+/* PORTFOLIO */
 
 
+.prototype-works{
+  position:relative;
+}
+
+.prototype-works .armchair-work-portfolio .header-prototype-portfolio span{
+  letter-spacing:normal;
+  color:#fff;
+  font-size:16px;
+}
 
 
+/* carousel-portfolio-armchair */
 
+.armchair-work-portfolio .modal-body .carousel-portfolio-armchair .carousel-item img{
+  max-height:594px;
+  max-width:594px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* circle-panel */
+.carousel-portfolio-armchair .carousel-indicators [data-bs-target] {
+	width:7px;
+	height:7px;
+	border-radius:50%;
+	margin-left:10px;
+	margin-bottom: -10px;
 
