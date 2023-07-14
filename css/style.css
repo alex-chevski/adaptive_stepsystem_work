@@ -570,25 +570,119 @@ footer .footer-nav {
   position:relative;
 }
 
-.prototype-works .armchair-work-portfolio .header-prototype-portfolio span{
+.prototype-works .header-prototype-portfolio span{
   letter-spacing:normal;
   color:#fff;
   font-size:16px;
+  margin-left:50px;
 }
 
 
-/* carousel-portfolio-armchair */
+.body-prototype-portfolio .col-lg-3 img{
+  position:relative;
+  right:10px;
+  object-fit:cover;
+}
 
-.armchair-work-portfolio .modal-body .carousel-portfolio-armchair .carousel-item img{
-  max-height:594px;
-  max-width:594px;
+
+
+.prototype-works .body-prototype-portfolio .btn{
+  margin-left:50px;
+}
+
+
+.prototype-works .body-prototype-portfolio img{
+  width:314px;
+  height:418px;
+  /* filter: grayscale(0); */
+}
+
+
+/* .prototype-works .body-prototype-portfolio img:hover{ */
+  /* filter: grayscale(50%); */
+/* } */
+
+
+/* carousel-portfolio */
+.modal-body  .carousel-item img{
+  height:709px;
+  width:709px;
 }
 
 /* circle-panel */
-.carousel-portfolio-armchair .carousel-indicators [data-bs-target] {
+.prototype-works .carousel-indicators [data-bs-target] {
 	width:7px;
 	height:7px;
 	border-radius:50%;
 	margin-left:10px;
 	margin-bottom: -10px;
+}
 
+/* art-russia */
+.header-prototype-portfolio .art-block-img{
+  margin-left:50px;
+}
+
+.header-prototype-portfolio .art-block-img img{
+  width:976px;
+  height:547px;
+}
+
+.header-prototype-portfolio .img-thumbnail{
+  padding: .1rem;
+}
+
+/* carousel art-russia */
+.body-prototype-portfolio .carousel-portfolio-art-russia .carousel-photo-girls{
+  height:710px;
+  width:532px;
+}
+
+/* footer-main-navigation */
+
+.footer-main-navigation a{
+  font-size:18px;
+}
+
+
+.footer-main-navigation .button-link-example{
+  color:#fff
+}
+
+
+.footer-main-navigation .button-link-group{
+  color:#D6FB51
+}
+
+.footer-main-navigation .button-link-appreciate{
+  background-color:#C7F7D8;
+}
+
+
+/* hover */
+.footer-main-navigation .button-link-example:hover,
+.footer-main-navigation .button-link-group:hover{
+  color:#000;
+  background-color:#cccc;
+}
+
+@media (min-width:992px){
+  .footer-main-navigation .button-link-appreciate{
+    width:190px;
+    height:40px;
+  }
+}
+
+
+
+@media (max-width:992px){
+
+  .footer-main-navigation .button-link-appreciate{
+    margin-left:10px;
+  }
+
+
+  .footer-main-navigation .button-link-group{
+    margin-left:3px;
+  }
+}
