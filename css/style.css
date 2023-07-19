@@ -686,3 +686,150 @@ footer .footer-nav {
     margin-left:3px;
   }
 }
+
+
+
+/* COMMUNITY PAGE */
+
+.community-step .description-community{
+  position:relative;
+  top:100px;
+}
+
+.description-community .header-community{
+  color:#66da43
+}
+
+
+@media (min-width:992px){
+.community-step{
+  position:relative;
+  left:30px;
+  top:80px;
+}
+}
+
+@media (max-width:992px){
+  .logo-community img{
+    width:350px;
+    height:auto;
+
+  }
+}
+
+
+.description-community .main-community{
+  font-size:18px;
+  line-height: 1.67em;
+  letter-spacing:normal;
+  color:#fff;
+}
+
+.presentation-link span{
+  color:#66da43;
+  letter-spacing:normal;
+  font-size:24px;
+}
+
+/* executor */
+
+.executor-who{
+  position:relative;
+  top:200px;
+}
+
+.executor-who .executor-header{
+  color:#66da43;
+
+}
+
+.executor-who .executor-main{
+  color:#fff;
+  font-size:18px;
+  letter-spacing:normal;
+  line-height:35px;
+}
+
+.join-in-group{
+  position:relative;
+  top:300px;
+}
+
+.join-in-group .join-header{
+  color:#66da43;
+}
+
+.join-in-group ul.join-main{
+  list-style:decimal;
+  color:#fff;
+  line-height:30px;
+  font-size:18px;
+  letter-spacing:normal;
+}
+
+
+/* form-commentary */
+
+.commentary{
+  position:relative;
+  top:300px;
+}
+
+.commentary label{
+  font-size:13px;
+}
+
+
+/* button-form */
+.commentary .btn-sub{
+  font-size:12px;
+  color:#fff;
+}
+
+.commentary .button-block{
+  max-width:40.9rem;
+}
+
+
+
+.commentary .button-block:hover{
+  .btn-sub{
+    color:#000;
+  }
+  background-color:#9C9C9C;
+  cursor:pointer;
+}
+
+@media (min-width:992px){
+.commentary{
+  left:150px;
+}
+}
+
+#inputMessage{
+  max-height:16.0rem;
+  height:16.0rem;
+}
+
+
+/* bootstrap-form-commentary */
+/* cursor-textarea */
+.form-floating>.form-control-plaintext:focus, .form-floating>.form-control-plaintext:not(:placeholder-shown), .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top:0.6rem;
+    padding-bottom:0.3rem;
+}
+
+.commentary .form-control {
+    background-color: #000;
+    border-radius:0;
+    color:#fff;
+    /* height:40px; */
+    /* width:250px; */
+}
+
+.commentary .form-control:focus,
+.commentary .form-control:hover {
+  border-color:#fff;
+  box-shadow: 0 0 0 0rem;
+  /* border: 0.125rem solid #fff; */
+}
